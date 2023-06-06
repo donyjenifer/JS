@@ -12,3 +12,8 @@ myobj.sub()
 
 const sendJSON=JSON.stringify(myobj)
 console.log(sendJSON);
+console.log(typeof myobj)
+console.log(typeof sendJSON)
+
+const receiveJSON=JSON.parse(sendJSON);
+console.log(receiveJSON)
